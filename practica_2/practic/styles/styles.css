@@ -79,6 +79,15 @@ body {
 }
 .text_department {
   padding-left: 15px;
+  font-family: "Cerebri-Sans-Pro-Extra-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
 }
 .department_list option {
   color: black;
@@ -103,6 +112,16 @@ body {
   display: flex;
   flex-direction: row;
   padding-left: 10px;
+  font-family: "Cerebri-Sans-Pro-ExtraBold", sans-serif;
+  width: 123px;
+  height: 13px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #2a2a2a;
 }
 .category_list {
   display: flex;
@@ -111,6 +130,15 @@ body {
 }
 .form_searh {
   margin-left: -10%;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #999999;
 }
 .form_searh ::placeholder {
   color: rgba(160, 160, 160, 0.75);
@@ -122,6 +150,10 @@ body {
   height: 50px;
   font-size: 16px;
   font-family: "Cerebri-Sans-Pro-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  align-items: center;
 }
 .abc {
   display: flex;
@@ -140,7 +172,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  width: 190px;
+  width: 200px;
   margin-left: 30px;
 }
 .icon_img img {
@@ -156,6 +188,13 @@ body {
 .social_frame_info_text_1 {
   font-size: 16px;
   font-weight: 900;
+  /* width: 126px; */
+  height: 25px;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+
+  color: #2a2a2a;
 }
 .social_frame_info_text_2 {
   color: rgba(160, 160, 160, 0.45);
@@ -173,7 +212,7 @@ body {
 }
 .easy_list {
   box-sizing: border-box;
-  color: rgba(42, 42, 42, 0.6);
+
   width: 270px;
   height: 441px;
   display: flex;
@@ -182,6 +221,14 @@ body {
   padding: 23px 0px 25px 20px;
   border: 1px solid rgba(42, 42, 42, 0.2);
   margin-bottom: 29px;
+  font-family: "Cerebri-Sans-Pro-Meadium", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+
+  color: #999999;
 }
 .block_1 {
   background: #f5f5f5;
@@ -215,7 +262,7 @@ body {
   width: 259px;
   height: 13px;
   color: #7fad39;
-  font-family: "Cerebri Sans Pro", sans-serif;
+  font-family: "Cerebri-Sans-Pro-ExtraBold", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -226,7 +273,7 @@ body {
 }
 #block_1_info_bold {
   color: #2a2a2a;
-  font-family: "Cerebri Sans Pro", sans-serif;
+  font-family: "Cerebri-Sans-Pro-Heavy", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -240,7 +287,7 @@ body {
 #block_1_info_gray_op {
   width: 259px;
   height: 13px;
-  font-family: "Cerebri Sans Pro", sans-serif;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -251,10 +298,19 @@ body {
   color: #999999;
 }
 .block_1_info_button {
+  font-family: "Cerebri-Sans-Pro-Bold", sans-serif;
   width: 141px;
   height: 50px;
   color: white;
   background: #7fad39;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  align-items: center;
+  text-align: center;
 }
 /* GROUP THREE */
 .group_three {

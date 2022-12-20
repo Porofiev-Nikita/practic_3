@@ -58,11 +58,49 @@
   /* flex-direction: row; */
   /* background-color: black; */
   color: #fff;
+  align-items: center;
 }
 .info_block {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
+  width: 377px;
+  height: 24px;
+}
+.info_block_text_content {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_block_text_1 {
+  width: 114px;
+  height: 9px;
+  font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.info_block_text_2 {
+  width: 199px;
+  height: 9px;
+  font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
 }
 /* Внимание на тег========================== */
 .icon_email {
@@ -93,7 +131,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Cerebri-Sans-Pro-Bold", sans-serif;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
   font-weight: 400;
 }
 .language {
@@ -104,6 +142,18 @@
   width: 102px;
   height: 18px;
 }
+.language_block {
+  width: 42px;
+  height: 9px;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+}
+
 .language_list option {
   color: black;
 }
@@ -143,6 +193,8 @@
   font-weight: 900;
   text-shadow: 0px 6px 5px rgba(42, 42, 42, 0.25);
   margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .logo a {
@@ -150,12 +202,21 @@
   /* text-shadow: 0px 0px 0px rgba(0, 0, 0); */
   -webkit-text-stroke: 2px black;
 }
+.logo img {
+  height: 40px;
+  padding-left: 2px;
+}
 .nav_menu {
   display: flex;
   font-size: 16px;
-  font-family: "Cerebri-Sans-Pro-Extra-Bold", sans-serif;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
   font-weight: 600;
   font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #2a2a2a;
 }
 .nav_menu_list {
   display: flex;
@@ -175,8 +236,8 @@ ul .nav_menu_obj a {
 }
 .nav_menu_list_item {
   display: flex;
-
   justify-content: end;
+  align-items: center;
 }
 .nav_menu_item {
   margin: 0px 5px 0px 5px;
@@ -186,6 +247,13 @@ ul .nav_menu_obj a {
   flex-direction: row;
   align-items: center;
   margin-left: 10px;
+  width: 103px;
+  height: 13px;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 /* ============= */
 .nav_menu_item_block {
